@@ -1,0 +1,189 @@
+Tejaswini kurpe 
+1st core python exam
+
+Q.1  Accept input values into 2 variables and swap them. Also write a program to accept no. 
+of hours and convert it to minutes and seconds(minutes=hours*60,seconds=hours*3600)
+
+Answer:
+  
+a=eval(input("\nEnter the 1st number:"))
+b=eval(input("\nEnter the 2nd number:"))
+a,b=b,a
+print("\n The swapping values are:",a,b)
+
+convert hours in minutes and seconds
+
+hours=eval(input("\n Enter the hours:"))
+minutes=hours*60
+print("\n The hours in minutes are",minutes)
+
+seconds=hours*3600
+print("\n The hours in seconds are",seconds)
+
+
+Q.2 Explain integer data type in Python and explain all the different number systems in integer 
+category and also explain how to represent values in binary, hexadecimal and octal formats in Python
+
+Answer: In integer type includes all positive and negative numbers without any decimal points.
+There are different number system in integer data type :
+1.Decimal number system: This includes all real numbers. decimal number system has base 10. so it allowed digits are 0-9.
+e.g - 3,5,-9,546,888 etc.
+
+2.Binary number system : in binary system allowed digits are 0 and 1.
+In binary system we have to use 0B or 0b before the number 
+e.g a=0b10 or a=0B110
+if we write a=10 then the number becomes decimal number.
+
+3.octal number system : In octal number system has base 8. so allowed numbers are 0-7
+we need to use 0O or 0o before the number in octal system 
+e.g a=0O704
+if we write a=704 then the number becomes decimal number.
+
+4.Hexadecimal number system : In hexadecimal system has base 16. so allowed numbers are 0-15. but here we have to 
+use alphabets a-f for 10-15 respectively. e.g a=10,b=11,c=12,d=13,e=15 and f=15. also we need to use 0x or 0X Before
+the number.
+ a=0XBE10 (B=11,E=15)
+
+Q.3 Write a Python program to accept input values into 2 variables and perform all arithmatic operations like 
+addition,subtraction,multiplication,division,remainder, exponentiation and floor division between them.
+
+Answer: 
+a=eval(input("\n Enter the 1st number:))
+b=eval(input("\n Enter the 2nd number:))
+c=a+b
+print("\n The addition is",c)
+c=a-b
+print("\n The substraction is",c)
+c=a*b
+print("\n The multiplication is",c)
+c=a/b
+print("\n The division is",c)
+c=a//b
+print("\n The floor division is",c)
+c=a%b
+print("\n The remainder is",c)
+c=a**b
+print("\n The exponentiation is",c)
+
+
+Q.4 Write a Python program to accept 2 complex numbers from user and perform all arithmatic operations on them
+Anwser:
+a=eval(input("\n Enter the 1st real number"))
+b=eval(input("\n Enter the 1st imaginary number"))
+x=eval(input("\n Enter the 2nd real number"))
+y=eval(input("\n Enter the 2nd imaginary number"))
+
+d1=(a,b)
+d2=(x,y)
+
+
+d3=d1+d2
+print("\n The addition is",d3)
+d3=d1-d2
+print("\n The substraction is",d3)
+d3=d1*d2
+print("\n The multiplication is",d3)
+d3=d1/d2
+print("\n The division is",d3)
+d3=d1//d2
+print("\n The floor division is",d3)
+d3=d1%d2
+print("\n The remainder is",d3)
+d3=d1**d2
+print("\n The exponentiation is",d3)
+
+Q.5  Write a Python program to accept the radius of sphere from user and display volume and area
+Volume=(4/3)pi(cube of radius)
+Area=4*pi*r*r
+
+Answer:
+import math
+ 
+Radius=eval(input("\n Enter the Radius of sphere"))
+ 
+Volume=(4/3)*math.pi*Radius*Radius*Radius
+print("\n The Volume of sphere is",Volume)
+ 
+Area=4*math.pi*Radius*Radius
+print("\n The Area of sphere is",Area)
+
+Q.6. Write a Python program to accept lengths of 3 sides of triangle and find perimeter and area
+peri=(a+b+c)
+area=squareroot(s*(s-a)*(s-b)*(s-c))
+s=(a+b+c)/2
+ 
+Answer:
+import math as p 
+
+a=eval(input("\n Enter the length of side 1"))
+b=eval(input("\n Enter the length of side 2"))
+c=eval(input("\n Enter the length of side 3"))
+
+perimeter=(a+b+c)
+print("\n The perimeter of triangle is",perimeter)
+s=(a+b+c)/2
+print("\n The side of triangle is",s)
+area=p.sqrt(s*(s-a)*(s-b)*(s-c))
+print("\n The area of triangle is",area)
+
+Q.7. Explain properties of list data type in python. What is output of?
+m=[11,2,8,9,21,22,'abc def']
+print(m[4])
+print(m[-4])
+print(m[2:5])
+
+Answer:
+The output is :
+21
+9
+[8,9,21]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
